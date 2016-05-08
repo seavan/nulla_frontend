@@ -8,9 +8,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.0.1/react-dom.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.16/browser.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="scripts/browserify_dropzone.js"></script>
   </head>
   <body>
     <div id="upload"></div>
-    <script type="text/babel" src="build/final.js"></script>
+    <script>
+document.addEventListener('DOMContentLoaded',function(){
+    var test = new window.DropzoneArmenian();
+    console.log(test);
+}); 
+    </script>
   </body>
 </html>

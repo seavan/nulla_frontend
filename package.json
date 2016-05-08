@@ -8,7 +8,9 @@
     "react-dropzone": "~3.4.0",
     "react-dom": "~15.0.2",
     "babelify": "~7.3.0",
-    "babel-preset-react": "~6.5.0"
+    "babel-preset-react": "~6.5.0",
+    "browser-sync": "*",
+    "gulp": "*"
   },
   "devDependencies": {
     "webpack": "~1.13.0",
